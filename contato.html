@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Booking — BrothersDance</title>
+  <meta name="description" content="Peça a BrothersDance para uma data em Curitiba: club, festa, corporativo ou open air. Formulário com consentimento da LGPD.">
+  <link rel="canonical" href="https://brothersdance.com.br/contato.html">
+  <meta property="og:title" content="Booking BrothersDance">
+  <meta property="og:description" content="Formulário de data para a dupla de house de Curitiba.">
+  <meta property="og:image" content="https://brothersdance.com.br/assets/criativos/hero-cabine.jpg">
+  <meta property="og:url" content="https://brothersdance.com.br/contato.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="theme-color" content="#0c0d11">
+  <link rel="icon" href="assets/marca/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Manrope:wght@400;500;600;700&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+  <a class="release-bar" href="lp.html"><strong>Também dá para levar a LP</strong> · Braços Abertos · 04.12</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 40" aria-hidden="true"><rect width="12" height="40" rx="6" fill="#3ee0ff"/><rect x="20" width="12" height="40" rx="6" fill="#ff4d8d"/></svg>
+      <span class="brand-name">BrothersDance</span>
+    </a>
+    <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav class="nav" id="menu" data-nav aria-label="Principal">
+      <a href="index.html">Início</a>
+      <a href="lp.html">A LP</a>
+      <a href="cena.html">Cena</a>
+      <a href="campanhas.html">Campanhas</a>
+      <a href="imprensa.html">Imprensa</a>
+      <a href="contato.html" aria-current="page">Booking</a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <div class="wrap page-hero">
+      <p class="kicker">Booking · Curitiba e viagem a combinar</p>
+      <h1>Conta a data. A dupla responde.</h1>
+      <p class="lede">Club, festa privada, corporativo ou open air. O retorno sai de booking@brothersdance.com.br. Ative essa caixa antes de publicar o site. O formulário, no ar pela Netlify, grava o pedido; neste computador ele mostra o e-mail se o envio ainda não tiver servidor.</p>
+    </div>
+    <section>
+      <div class="wrap split">
+        <form class="form paper panel" name="booking" method="POST" action="/contato.html?enviado=1" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="booking">
+          <p class="hp"><label>Não preencha<input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+          <label>Nome<input name="nome" type="text" autocomplete="name" required minlength="2"></label>
+          <label>E-mail<input name="email" type="email" autocomplete="email" required></label>
+          <label>Telefone ou WhatsApp<input name="telefone" type="tel" autocomplete="tel" inputmode="tel"></label>
+          <label>Data do evento<input name="data" type="date" required></label>
+          <label>Formato
+            <select name="formato" required>
+              <option value="">Escolher</option>
+              <option>Club / pista</option>
+              <option>Festa privada</option>
+              <option>Corporativo</option>
+              <option>Open air</option>
+              <option>Escuta da LP</option>
+              <option>Outro</option>
+            </select>
+          </label>
+          <label>Cidade e bairro<input name="lugar" type="text" value="Curitiba" required></label>
+          <label>Casa, salão ou endereço<input name="local" type="text"></label>
+          <label>Sobre a noite<textarea name="mensagem" required minlength="12" placeholder="Horário, público aproximado, duração do set."></textarea></label>
+          <label class="check"><input name="lgpd" type="checkbox" required> <span>Autorizo o uso destes dados para responder este pedido de booking, como descrito na <a href="privacidade.html">política de privacidade</a>.</span></label>
+          <button class="btn btn-solid" type="submit">Enviar pedido</button>
+          <p class="form-note" data-form-note role="status"></p>
+        </form>
+        <aside class="stack">
+          <article class="card">
+            <h2>Direto</h2>
+            <p><a href="mailto:booking@brothersdance.com.br">booking@brothersdance.com.br</a></p>
+            <p><a href="mailto:privacidade@brothersdance.com.br">privacidade@brothersdance.com.br</a></p>
+            <p>Base: Curitiba, Paraná. Set de 90 a 150 minutos. Press kit na página de imprensa.</p>
+          </article>
+          <article class="card">
+            <h2>O que ajuda a responder rápido</h2>
+            <ul>
+              <li>Data e horário de início.</li>
+              <li>Bairro e nome da casa.</li>
+              <li>Duração desejada.</li>
+              <li>Se a cabine já tem CDJ e retorno.</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h2>Imprensa</h2>
+            <p>Bio, logo e fotos estão prontos para anexo.</p>
+            <a class="btn btn-line" href="imprensa.html">Abrir press kit</a>
+          </article>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div>
+      <strong>BrothersDance</strong>
+      <p>Pedidos de data e de imprensa usam o mesmo e-mail até a dupla separar as caixas.</p>
+    </div>
+    <div>
+      <strong>Mapa</strong>
+      <a href="cena.html">Casas</a>
+      <a href="imprensa.html">Press kit</a>
+      <a href="lp.html">LP</a>
+    </div>
+    <div class="legal-links">
+      <strong>Canais</strong>
+      <a href="privacidade.html">Privacidade</a>
+      <a href="cookies.html">Cookies</a>
+      <button type="button" data-cookie-settings>Preferências de cookies</button>
+    </div>
+  </footer>
+  <script src="js/site-data.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

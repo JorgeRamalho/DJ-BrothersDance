@@ -1,0 +1,19 @@
+{
+  "name": "BrothersDance",
+  "short_name": "BrothersDance",
+  "description": "Dupla de house e tech house de Curitiba. LP Braços Abertos.",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0c0d11",
+  "theme_color": "#0c0d11",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "/assets/marca/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
